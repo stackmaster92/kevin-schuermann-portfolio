@@ -1,4 +1,4 @@
-export const NAME = "Kevin Palmer";
+export const NAME = "Kevin Schuermann";
 
 export const DESIGNATION = `Software Engineer | Cloud Integration Specialist | Backend Architect | Effective Communicator`;
 
@@ -139,8 +139,8 @@ export const TECH_STACK = [
 ];
 
 export const CONTACTS = {
-  EMAIL: "kevin.dev@gmail.com",
-  PHONE: "+923159591822",
+  EMAIL: "kevin.th.dev@gmail.com",
+  PHONE: "+1 (864) 365-5881",
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/kevin",
