@@ -54,8 +54,8 @@ const Banner = () => {
             <div className="w-48 h-52 relative hidden xl:block">
               <img
                 className="absolute top-8 w-full h-full -mt-[15px] transform scale-x-[1.5] scale-y-[1.2]"
-                src="images/emoji.png"
-                alt="emoji"
+                src="images/logo.png"
+                alt="logo"
               />
             </div>
           </div>
