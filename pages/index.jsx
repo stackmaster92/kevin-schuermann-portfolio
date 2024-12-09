@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useQuery } from "react-query";
 import Footer from "../components/Footer";
 import Banner from "../components/HomeComponents/Banner";
+import ClientReviews from "../components/HomeComponents/ClientReviews/ClientReviews";
 import Recommendations from "../components/HomeComponents/Recommendations/Recommendations";
 import PortfolioCard from "../components/Portfolio/PortfolioCard";
 import ImageAndParagraphSkeleton from "../components/Common/ImageAndParagraphSkeleton";
@@ -17,10 +18,7 @@ const Home = () => {
   );
 
   useEffect(() => {
-    // const timer = setTimeout(() => {
     window.scrollTo(0, 0);
-    // }, 500);
-    // return () => clearTimeout(timer);
   }, []);
 
   return (
@@ -29,7 +27,7 @@ const Home = () => {
       <Banner />
 
       {/* Portfolio Section */}
-      <div className="px-4 md:px-8 py-4 mt-6 text-2xl font-bold text-Snow">
+      <div className="px-4 md:px-8 py-4 mt-6 text-xl font-bold text-Snow">
         My Portfolio
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4 md:px-8 my-6">
@@ -44,6 +42,7 @@ const Home = () => {
               ?.slice(0, 2)
               .map((item, index) => <PortfolioCard key={index} data={item} />)}
       </div>
+      <ClientReviews />
       {/* <div className="flex justify-center mt-4">
         <Link
           href="/portfolio"
