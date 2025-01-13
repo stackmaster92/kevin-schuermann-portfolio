@@ -1,6 +1,6 @@
 export const NAME = "Kevin Schuermann";
 
-export const DESIGNATION = `Software Engineer | Cloud Integration Specialist | Backend Architect | Effective Communicator`;
+export const DESIGNATION = `Senior Software Engineer| AI Specialist | Effective Communicator`;
 
 export const DETAILS = {
   Residence: "Germany",
@@ -144,7 +144,7 @@ export const CONTACTS = {
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/kevin",
-  LINKEDIN: "https://www.linkedin.com/in/kevin/",
+  LINKEDIN: "http://www.linkedin.com/in/kevin-schuermann-65211225a",
   TWITTER: "https://twitter.com/kevin",
   FACEBOOK: "https://www.facebook.com/kevin",
 };

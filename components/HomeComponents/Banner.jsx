@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 import BannerLayout from "../Common/BannerLayout";
 
 const Banner = () => {
-  const str = `Blockchain Architect | Frontend & Systems Specialist  | Effective Communicator`;
+  const str = `Senior Software Engineer| AI Specialist | Effective Communicator`;
 
   return (
     <BannerLayout>
@@ -29,23 +29,23 @@ const Banner = () => {
               <div className="hidden sm:block">
                 <p className="xl:text-lg lg:base text-Green">
                   <span>
-                    - Develops secure, scalable blockchain systems and
-                    integrates frontend technologies.
+                    - Builds software architectures that can grow and stay
+                    stable over time.
                   </span>
                   <br />
                   <span>
-                    - Designs high-performance architectures for smart contracts
-                    and apps.
+                    - Creates user-friendly platforms with fast and secure
+                    frontend and backend systems.
                   </span>
                   <br />
                   <span>
-                    - Delivers innovative solutions through collaboration and
-                    improvement.
+                    - Creates user-friendly platforms with fast and secure
+                    frontend and backend systems.
                   </span>
                   <br />
                   <span>
-                    - Expert in blockchain protocols, frontend development, and
-                    multilingual adaptability.
+                    -Guides teams, promotes innovation, and encourages teamwork
+                    to deliver high-quality solutions.
                   </span>
                   <br />
                 </p>

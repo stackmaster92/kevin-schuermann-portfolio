@@ -11,18 +11,14 @@ const review = [
     id: 3,
     url: "images/certificates/problem_solving_basic.jpg",
   },
-  // {
-  //   id: 1,
-  //   url: "images/certificates/css.jpg",
-  // },
-  // {
-  //   id: 2,
-  //   url: "images/certificates/javascript_basic.jpg",
-  // },
-  // {
-  //   id: 4,
-  //   url: "images/certificates/javascript_intermediate.jpg",
-  // },
+  {
+    id: 1,
+    url: "images/certificates/javascript_intermediate.jpg",
+  },
+  {
+    id: 2,
+    url: "images/certificates/javascript_basic.jpg",
+  },
 ];
 export default function handler(req, res) {
   res.status(200).json(review);

@@ -42,21 +42,19 @@ const Home = () => {
               ?.slice(0, 2)
               .map((item, index) => <PortfolioCard key={index} data={item} />)}
       </div>
-      <ClientReviews />
-      {/* <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-4">
         <Link
           href="/portfolio"
           className="transition flex items-center px-4 py-2 text-base font-semibold text-Green hover:text-SilverGray hover:bg-EveningBlack rounded-xl"
         >
           Show More...
         </Link>
-      </div> */}
-
-      {/* Recommendations Section */}
-      {/* <Recommendations limit={2} /> */}
+      </div>
+      <Recommendations limit={2} />
+      <ClientReviews />
 
       {/* Footer */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

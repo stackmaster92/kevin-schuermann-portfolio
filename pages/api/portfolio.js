@@ -1,6 +1,131 @@
 const portfolio = [
   {
     id: 0,
+    projectName: "SOFI",
+    url: "https://sofi.com/",
+    image: "projects/new/sofi.png",
+    projectDetail:
+      "Implemented pixel-perfect designs using the React Native UI library based on the Eva Design System and refactored the existing codebase following best practices with a focus on test-driven development. Added backend functionality with Firebase administration and integrated push notifications for both iOS and Android platforms using Firebase Cloud Messaging (FCM).",
+    technologiesUsed: [
+      {
+        tech: "ReactJS",
+      },
+      {
+        tech: "Jest",
+      },
+      {
+        tech: "Firebase",
+      },
+      {
+        tech: "REST API",
+      },
+      {
+        tech: "OAuth2",
+      },
+    ],
+  },
+  {
+    id: 0,
+    projectName: "VAAVE",
+    url: "https://www.vaave.com/",
+    image: "projects/new/vaave.png",
+    projectDetail:
+      "Migrated the website infrastructure to EC2 instances, optimizing deployment pipelines with Jenkins for efficient CI/CD processes, and configured Nginx as a reverse proxy to enhance server performance and load balancing. Integrated OAuth2 authentication for secure access control across the website and third-party services, while collaborating with a senior visual designer to update the UI/UX in line with new design guidelines, ensuring consistency, high availability, and scalability. Additionally, integrated third-party systems such as Marketo forms, Greenhouse job boards, and Lob API documentation to streamline user functionality and improve backend communication.",
+    technologiesUsed: [
+      {
+        tech: "AWS",
+      },
+      {
+        tech: "Jenkins",
+      },
+      {
+        tech: "Nignx",
+      },
+      {
+        tech: "REST API",
+      },
+      {
+        tech: "OAuth2",
+      },
+    ],
+  },
+  {
+    id: 0,
+    projectName: "Tojjar",
+    url: "/domain-expired",
+    image: "projects/tojjar.png",
+    projectDetail:
+      "Tojjar is ecommerce website,  where you can open your own store and sell products of different brands!",
+    technologiesUsed: [
+      {
+        tech: "Nextjs with SSR",
+      },
+      {
+        tech: "Laravel",
+      },
+      {
+        tech: "REST API",
+      },
+      {
+        tech: "Ant Design",
+      },
+      {
+        tech: "TailwindCSS",
+      },
+    ],
+  },
+  {
+    id: 0,
+    projectName: "JMM Technologies",
+    url: "https://jmm.ltd/",
+    image: "projects/jmm.png",
+    projectDetail:
+      "JMM Technologies is a start-up turned technology company with extensive years of experience delivering digital solutions. As a fast-growing tech firm, we help diverse businesses and organizations. Our expertise in innovative, state-of-the-art digital services accelerates business growth and enhances customer impact.",
+    technologiesUsed: [
+      {
+        tech: "ReactJS",
+      },
+      {
+        tech: "Laravel",
+      },
+      {
+        tech: "REST API",
+      },
+      {
+        tech: "PHP",
+      },
+      {
+        tech: "Material UI",
+      },
+    ],
+  },
+  {
+    id: 0,
+    projectName: "Fateh Al Mustaqbil",
+    url: "https://fatehtour.com/",
+    image: "projects/fateh.png",
+    projectDetail:
+      "Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Their expertise lies in crafting exceptional journeys tailored to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance.",
+    technologiesUsed: [
+      {
+        tech: "VueJS",
+      },
+      {
+        tech: "MySql",
+      },
+      {
+        tech: "Django",
+      },
+      {
+        tech: "AUTH0",
+      },
+      {
+        tech: "Tailwind",
+      },
+    ],
+  },
+  {
+    id: 0,
     projectName: "MATSUYAMA",
     url: "matsuyama.co/",
     image: "projects/new/matsuyama.co.png",
@@ -117,31 +242,6 @@ const portfolio = [
   },
   {
     id: 0,
-    projectName: "JMM Technologies",
-    url: "https://jmm.ltd/",
-    image: "projects/jmm.png",
-    projectDetail:
-      "JMM Technologies is a start-up turned technology company with extensive years of experience delivering digital solutions. As a fast-growing tech firm, we help diverse businesses and organizations. Our expertise in innovative, state-of-the-art digital services accelerates business growth and enhances customer impact.",
-    technologiesUsed: [
-      {
-        tech: "ReactJS",
-      },
-      {
-        tech: "Laravel",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "PHP",
-      },
-      {
-        tech: "Material UI",
-      },
-    ],
-  },
-  {
-    id: 0,
     projectName: "ALSN",
     url: "https://alsn.app/",
     image: "projects/alsn.png",
@@ -192,56 +292,6 @@ const portfolio = [
   },
   {
     id: 0,
-    projectName: "Fateh Al Mustaqbil",
-    url: "https://fatehtour.com/",
-    image: "projects/fateh.png",
-    projectDetail:
-      "Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Their expertise lies in crafting exceptional journeys tailored to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance.",
-    technologiesUsed: [
-      {
-        tech: "VueJS",
-      },
-      {
-        tech: "MySql",
-      },
-      {
-        tech: "Django",
-      },
-      {
-        tech: "AUTH0",
-      },
-      {
-        tech: "Tailwind",
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: "Tojjar",
-    url: "/domain-expired",
-    image: "projects/tojjar.png",
-    projectDetail:
-      "Tojjar is ecommerce website,  where you can open your own store and sell products of different brands!",
-    technologiesUsed: [
-      {
-        tech: "Nextjs with SSR",
-      },
-      {
-        tech: "Laravel",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "Ant Design",
-      },
-      {
-        tech: "TailwindCSS",
-      },
-    ],
-  },
-  {
-    id: 0,
     projectName: "Firstrade",
     url: "https://www.firstrade.com/",
     image: "projects/new/firstrade.png",
@@ -262,56 +312,6 @@ const portfolio = [
       },
       {
         tech: "Firebase",
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: "VAAVE",
-    url: "https://www.vaave.com/",
-    image: "projects/new/vaave.png",
-    projectDetail:
-      "Migrated the website infrastructure to EC2 instances, optimizing deployment pipelines with Jenkins for efficient CI/CD processes, and configured Nginx as a reverse proxy to enhance server performance and load balancing. Integrated OAuth2 authentication for secure access control across the website and third-party services, while collaborating with a senior visual designer to update the UI/UX in line with new design guidelines, ensuring consistency, high availability, and scalability. Additionally, integrated third-party systems such as Marketo forms, Greenhouse job boards, and Lob API documentation to streamline user functionality and improve backend communication.",
-    technologiesUsed: [
-      {
-        tech: "AWS",
-      },
-      {
-        tech: "Jenkins",
-      },
-      {
-        tech: "Nignx",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "OAuth2",
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: "SOFI",
-    url: "https://sofi.com/",
-    image: "projects/new/sofi.png",
-    projectDetail:
-      "Implemented pixel-perfect designs using the React Native UI library based on the Eva Design System and refactored the existing codebase following best practices with a focus on test-driven development. Added backend functionality with Firebase administration and integrated push notifications for both iOS and Android platforms using Firebase Cloud Messaging (FCM).",
-    technologiesUsed: [
-      {
-        tech: "ReactJS",
-      },
-      {
-        tech: "Jest",
-      },
-      {
-        tech: "Firebase",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "OAuth2",
       },
     ],
   },
