@@ -30,19 +30,19 @@ const portfolio = [
       "Developed responsive, mobile-friendly, and pixel-perfect web front-end pages using React.js, Redux, HTML5, CSS3, and styled-components, and delivered a marketing website utilizing the same technologies. Built cross-platform mobile applications for iOS and Android with React Native CLI, React, Redux, Redux-Thunk, and Axios, integrating third-party packages such as Google Mapbox, DnD, and Stripe for enhanced functionality. Implemented messaging features using the SendBird API and integrated FCM for push notifications to improve user engagement.",
     technologiesUsed: [
       {
-        tech: "ReactJS",
+        tech: "Python",
       },
       {
-        tech: "React Native",
+        tech: "TensorFlow",
       },
       {
-        tech: "Redux",
+        tech: "NLTK",
       },
       {
-        tech: "Redux-Thunk",
+        tech: "TypeScript",
       },
       {
-        tech: "CSS3",
+        tech: "React",
       },
     ],
   },
