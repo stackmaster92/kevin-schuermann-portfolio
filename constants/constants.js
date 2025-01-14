@@ -57,7 +57,15 @@ export const SKILL_LIST = [
     level: "70%",
   },
   {
-    title: "ReactJS",
+    title: "React",
+    level: "95%",
+  },
+  {
+    title: "Next.js",
+    level: "88%",
+  },
+  {
+    title: "NestJS",
     level: "88%",
   },
   {
@@ -111,6 +119,18 @@ export const SKILL_LIST = [
   {
     title: "GraphQL",
     level: "80%",
+  },
+  {
+    title: "Websocket",
+    level: "92%",
+  },
+  {
+    title: "Web3.js",
+    level: "80%",
+  },
+  {
+    title: "Solidity",
+    level: "70%",
   },
 ];
 
