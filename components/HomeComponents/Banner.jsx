@@ -44,7 +44,7 @@ const Banner = () => {
                   </span>
                   <br />
                   <span>
-                    -Guides teams, promotes innovation, and encourages teamwork
+                    - Guides teams, promotes innovation, and encourages teamwork
                     to deliver high-quality solutions.
                   </span>
                   <br />
