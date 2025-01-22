@@ -161,6 +161,7 @@ export const TECH_STACK = [
 export const CONTACTS = {
   EMAIL: "kevin.th.dev@gmail.com",
   PHONE: "+1 (864) 365-5881",
+  // PHONE: "+1 (864) 365-5881",
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/kevin",
