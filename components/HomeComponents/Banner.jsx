@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 import BannerLayout from "../Common/BannerLayout";
 
 const Banner = () => {
-  const str = `Senior Software Engineer| AI Specialist | Effective Communicator`;
+  const str = `Senior Software Engineer | AI/ML Specialist | Effective Communicator`;
 
   return (
     <BannerLayout>

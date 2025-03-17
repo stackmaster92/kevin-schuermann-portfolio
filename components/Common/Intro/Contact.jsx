@@ -13,8 +13,8 @@ const Contact = () => {
         </span>
       </div>
       <div className="flex flex-col">
-        {/* <span className="text-Snow text-base font-bold">Phone</span> */}
-        {/* <span className="text-base text-gray-600">{CONTACTS.PHONE}</span> */}
+        <span className="text-Snow text-base font-bold">Phone</span>
+        <span className="text-base text-gray-600">{CONTACTS.PHONE}</span>
       </div>
     </div>
   );
