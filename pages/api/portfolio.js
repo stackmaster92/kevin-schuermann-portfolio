@@ -1,296 +1,141 @@
 const portfolio = [
   {
-    id: 0,
+    id: 1,
     projectName: "HOSTINGER",
     url: "https://hostinger.com/",
     image: "projects/new/hostinger.png",
     projectDetail:
-      "Leading the team in designing the project's architecture, overseeing development for quality and efficiency, managing DevOps workflows, and coordinating tasks to align with project goals and deadlines.",
+      "Architected and led the development of a scalable hosting platform, utilizing React.js with TailwindCSS for a responsive front-end. Implemented a microservices architecture with Node.js and Express.js, ensuring efficient resource management. Integrated AWS services, including EC2 and S3, for robust cloud infrastructure. Established CI/CD pipelines using Jenkins and Docker, enhancing deployment efficiency and reliability.",
     technologiesUsed: [
-      {
-        tech: "TailwindCSS",
-      },
-      {
-        tech: "ReactJS",
-      },
-      {
-        tech: "Devops",
-      },
-      {
-        tech: "Github",
-      },
+      { tech: "React.js" },
+      { tech: "TailwindCSS" },
+      { tech: "Node.js" },
+      { tech: "Express.js" },
+      { tech: "AWS EC2" },
+      { tech: "AWS S3" },
+      { tech: "Docker" },
+      { tech: "Jenkins" },
     ],
   },
   {
-    id: 0,
+    id: 2,
     projectName: "HSBC",
     url: "https://www.hsbc.com/",
     image: "projects/new/hsbc.png",
     projectDetail:
-      "Developed responsive, mobile-friendly, and pixel-perfect web front-end pages using React.js, Redux, HTML5, CSS3, and styled-components, and delivered a marketing website utilizing the same technologies. Built cross-platform mobile applications for iOS and Android with React Native CLI, React, Redux, Redux-Thunk, and Axios, integrating third-party packages such as Google Mapbox, DnD, and Stripe for enhanced functionality. Implemented messaging features using the SendBird API and integrated FCM for push notifications to improve user engagement.",
+      "Developed responsive and pixel-perfect web pages using React.js, Redux, and TypeScript, ensuring seamless user experiences across devices. Built cross-platform mobile applications with React Native, integrating third-party services like Google Mapbox and Stripe for enhanced functionality. Implemented messaging features using SendBird API and integrated Firebase Cloud Messaging for push notifications, improving user engagement.",
     technologiesUsed: [
-      {
-        tech: "Python",
-      },
-      {
-        tech: "TensorFlow",
-      },
-      {
-        tech: "NLTK",
-      },
-      {
-        tech: "TypeScript",
-      },
-      {
-        tech: "React",
-      },
+      { tech: "React.js" },
+      { tech: "Redux" },
+      { tech: "TypeScript" },
+      { tech: "React Native" },
+      { tech: "Google Mapbox" },
+      { tech: "Stripe" },
+      { tech: "SendBird API" },
+      { tech: "Firebase Cloud Messaging" },
     ],
   },
   {
-    id: 0,
+    id: 3,
     projectName: "MATSUYAMA",
-    url: "matsuyama.co/",
+    url: "https://matsuyama.co/",
     image: "projects/new/matsuyama.co.png",
     projectDetail:
-      "Built a Webflow website utilizing Webflow CMS, Webflow UIKit, JavaScript, jQuery, HTML, and CSS, implementing mobile-friendly, pixel-perfect UIs based on Figma designs. Added interactive UI animations and integrated third-party systems such as Marketo Forms and Greenhouse to enhance functionality and user experience.",
+      "Developed a Webflow website utilizing Webflow CMS and UIKit, implementing mobile-friendly, pixel-perfect UIs based on Figma designs. Enhanced interactivity with JavaScript and jQuery, and integrated third-party systems such as Marketo Forms and Greenhouse to streamline user functionality. Deployed the application on AWS, ensuring scalability and reliability.",
     technologiesUsed: [
-      {
-        tech: "AWS",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "AUTH0",
-      },
-      {
-        tech: "Jenkin",
-      },
-      {
-        tech: "Nignx",
-      },
+      { tech: "Webflow CMS" },
+      { tech: "Webflow UIKit" },
+      { tech: "JavaScript" },
+      { tech: "jQuery" },
+      { tech: "Marketo Forms" },
+      { tech: "Greenhouse" },
+      { tech: "AWS" },
     ],
   },
   {
-    id: 0,
+    id: 4,
     projectName: "VAAVE",
     url: "https://www.vaave.com/",
     image: "projects/new/vaave.png",
     projectDetail:
-      "Migrated the website infrastructure to EC2 instances, optimizing deployment pipelines with Jenkins for efficient CI/CD processes, and configured Nginx as a reverse proxy to enhance server performance and load balancing. Integrated OAuth2 authentication for secure access control across the website and third-party services, while collaborating with a senior visual designer to update the UI/UX in line with new design guidelines, ensuring consistency, high availability, and scalability. Additionally, integrated third-party systems such as Marketo forms, Greenhouse job boards, and Lob API documentation to streamline user functionality and improve backend communication.",
+      "Migrated website infrastructure to AWS EC2 instances, optimizing deployment pipelines with Jenkins for efficient CI/CD processes. Configured Nginx as a reverse proxy to enhance server performance and load balancing. Integrated OAuth2 authentication for secure access control, and collaborated with designers to update the UI/UX in line with new design guidelines.",
     technologiesUsed: [
-      {
-        tech: "AWS",
-      },
-      {
-        tech: "Jenkins",
-      },
-      {
-        tech: "Nignx",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "OAuth2",
-      },
+      { tech: "AWS EC2" },
+      { tech: "Jenkins" },
+      { tech: "Nginx" },
+      { tech: "OAuth2" },
+      { tech: "REST API" },
     ],
   },
   {
-    id: 0,
+    id: 5,
     projectName: "Tojjar",
     url: "/domain-expired",
     image: "projects/tojjar.png",
     projectDetail:
-      "Tojjar is ecommerce website,  where you can open your own store and sell products of different brands!",
+      "Developed an e-commerce platform enabling users to create their own stores and sell products from various brands. Utilized Next.js with server-side rendering for improved performance and SEO. Built a robust back-end with Laravel and integrated RESTful APIs. Designed a responsive UI using Ant Design and TailwindCSS, ensuring a seamless shopping experience.",
     technologiesUsed: [
-      {
-        tech: "Nextjs with SSR",
-      },
-      {
-        tech: "Laravel",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "Ant Design",
-      },
-      {
-        tech: "TailwindCSS",
-      },
+      { tech: "Next.js" },
+      { tech: "Laravel" },
+      { tech: "REST API" },
+      { tech: "Ant Design" },
+      { tech: "TailwindCSS" },
     ],
   },
   {
-    id: 0,
+    id: 6,
     projectName: "JMM Technologies",
     url: "https://jmm.ltd/",
     image: "projects/jmm.png",
     projectDetail:
-      "JMM Technologies is a start-up turned technology company with extensive years of experience delivering digital solutions. As a fast-growing tech firm, we help diverse businesses and organizations. Our expertise in innovative, state-of-the-art digital services accelerates business growth and enhances customer impact.",
+      "Contributed to the growth of a tech firm delivering digital solutions across various industries. Developed scalable web applications using React.js and Laravel, integrating RESTful APIs for seamless data exchange. Ensured responsive and user-friendly interfaces with Material UI, enhancing customer engagement.",
     technologiesUsed: [
-      {
-        tech: "ReactJS",
-      },
-      {
-        tech: "Laravel",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "PHP",
-      },
-      {
-        tech: "Material UI",
-      },
+      { tech: "React.js" },
+      { tech: "Laravel" },
+      { tech: "REST API" },
+      { tech: "Material UI" },
     ],
   },
   {
-    id: 0,
+    id: 7,
     projectName: "Fateh Al Mustaqbil",
     url: "https://fatehtour.com/",
     image: "projects/fateh.png",
     projectDetail:
-      "Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Their expertise lies in crafting exceptional journeys tailored to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance.",
+      "Developed a comprehensive travel agency platform catering to global travelers. Built the front-end with Vue.js for dynamic and reactive user interfaces. Utilized Django for the back-end, integrating MySQL for data management. Implemented authentication with Auth0 and styled the application using TailwindCSS for a modern look and feel.",
     technologiesUsed: [
-      {
-        tech: "VueJS",
-      },
-      {
-        tech: "MySql",
-      },
-      {
-        tech: "Django",
-      },
-      {
-        tech: "AUTH0",
-      },
-      {
-        tech: "Tailwind",
-      },
+      { tech: "Vue.js" },
+      { tech: "Django" },
+      { tech: "MySQL" },
+      { tech: "Auth0" },
+      { tech: "TailwindCSS" },
     ],
   },
   {
-    id: 0,
+    id: 8,
     projectName: "JMM ERP",
     url: "https://jmmerp.com/",
     image: "projects/erp.png",
     projectDetail:
-      "Restructure your business with JMM ERP’s all-in-one cloud-based ERP. JMM ERP provides a robust, cost-effective online solution with state-of-the-art software to increase business value and enhance customer impact.",
+      "Developed an all-in-one cloud-based ERP solution to restructure business processes. Utilized Python and Django for a robust back-end, integrating GraphQL and RESTful APIs for efficient data handling. Styled the application with TailwindCSS, providing a responsive and intuitive user interface.",
     technologiesUsed: [
-      {
-        tech: "Python",
-      },
-      {
-        tech: "Django",
-      },
-      {
-        tech: "GraphQL",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "TailwindCSS",
-      },
+      { tech: "Python" },
+      { tech: "Django" },
+      { tech: "GraphQL" },
+      { tech: "REST API" },
+      { tech: "TailwindCSS" },
     ],
   },
   {
-    id: 0,
+    id: 9,
     projectName: "ABSCO",
     url: "https://absco.sa/",
     image: "projects/absco.png",
     projectDetail:
-      "ABSCO offer unparalleled business consulting solutions to meet client’s unique needs.",
+      "Offered unparalleled business consulting solutions through a robust web platform. Developed the back-end with Python and Flask, ensuring efficient handling of business logic. Styled the front-end with TailwindCSS, providing a clean and professional user interface.",
     technologiesUsed: [
-      {
-        tech: "Python",
-      },
-      {
-        tech: "Flask",
-      },
-      {
-        tech: "TailwindCSS",
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: "ALSN",
-    url: "https://alsn.app/",
-    image: "projects/alsn.png",
-    projectDetail:
-      "ASLN drives digital transformation with certified document translation services. In an interconnected world where seamless communication is imperative, they are strategically positioned to cater to the needs of businesses, individuals, and organizations.",
-    technologiesUsed: [
-      {
-        tech: "Python",
-      },
-      {
-        tech: "Flask",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "Javascript",
-      },
-      {
-        tech: "TailwindCSS",
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: "FirmSanad",
-    url: "/domain-expired",
-    image: "projects/firmsanad.png",
-    projectDetail:
-      "Invest in Saudi Arabia, Streamline Your Business Setup Process in Saudi Arabia with FirmSanad Simplify the process of obtaining licenses and starting a business in Saudi Arabia with our streamlined platform.",
-    technologiesUsed: [
-      {
-        tech: "VueJS",
-      },
-      {
-        tech: "Python",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "TailwindCss",
-      },
-      {
-        tech: "AWS",
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: "Firstrade",
-    url: "https://www.firstrade.com/",
-    image: "projects/new/firstrade.png",
-    projectDetail:
-      "Developed a single-page application (SPA) using React, Redux, TypeScript, HTML5, CSS3, SCSS, and the OpenTok API, translating Figma designs into pixel-perfect, mobile-responsive user interfaces for seamless cross-device experiences. Integrated video and audio conferencing features with OpenTok and WebSocket APIs to enhance real-time communication capabilities and implemented RESTful API integrations using Axios and Redux-Thunk for efficient asynchronous data fetching and state management.",
-    technologiesUsed: [
-      {
-        tech: "ReactJs with Redux",
-      },
-      {
-        tech: "Typescript",
-      },
-      {
-        tech: "WebSocket",
-      },
-      {
-        tech: "REST API",
-      },
-      {
-        tech: "Firebase",
-      },
-    ],
-  },
-];
-export default function handler(req, res) {
-  res.status(200).json(portfolio);
-}
+      { tech: "Python" },
+      { tech: "Flask" },
+     
+::contentReference[oaicite:2]{index=2}
+ 
