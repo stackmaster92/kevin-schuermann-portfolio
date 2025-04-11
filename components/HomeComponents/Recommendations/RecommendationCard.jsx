@@ -4,19 +4,27 @@ import CardLayout from "../../Common/CardLayout";
 const RecommendationCard = ({ data }) => {
   return (
     <CardLayout>
-      <div className="p-8 h-full relative card_stylings transition">
-        <img
-          src={data?.image}
-          className="absolute z-10 right-10 -top-5 border-Green w-16 h-16  border-[3px] rounded-full m-0"
-        />
-        <div className=" text-Snow ">
-          <span className="text-lg text-Snow font-bold">{data?.name}</span>
+      <div className="p-8 h-full relative card_stylings transition flex min-w-[250px] min-h-[150px] items-center justify-center">
+        {/* Left part for company image */}
+        <div className="flex-shrink-0 mr-6"> {/* Increased margin between image and text */}
+          <img
+            src={data?.image}
+            className="border-Green w-72 h-60 border-[1px]"
+            alt="Company"
+          />
         </div>
-        <div className="text-sm text-LightGray italic mt-1">
-          {data?.designation}
-        </div>
-        <div className="text-base mt-2 text-LightGray font-normal ">
-          {data?.view}
+
+        {/* Right part for name, designation, and view */}
+        <div className="flex-grow flex flex-col justify-between"> {/* Align items to top and bottom */}
+          <div className="text-Snow">
+            <span className="text-lg text-Snow font-bold">{data?.name}</span>
+          </div>
+          <div className="text-sm text-LightGray italic mt-2"> {/* Adjusted spacing */}
+            {data?.designation}
+          </div>
+          <div className="text-base mt-2 text-LightGray font-normal self-end"> {/* Ensure the view component stays at the bottom */}
+            {data?.view}
+          </div>
         </div>
       </div>
     </CardLayout>

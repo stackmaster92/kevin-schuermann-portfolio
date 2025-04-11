@@ -33,7 +33,7 @@ const Recommendations = ({ limit }) => {
         <div className="grid justify-center">
           <Link
             onClick={(e) => {}}
-            href={"/portfolio"}
+            href={"/work_history"}
             className={`transition flex items-center px-4 py-2 text-base font-semibold text-Green hover:text-SilverGray hover:bg-EveningBlack rounded-xl`}
           >
             Show More...
