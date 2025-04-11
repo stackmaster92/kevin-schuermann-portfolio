@@ -157,7 +157,7 @@ const portfolio = [
     id: 10,
     projectName: "Internal Management Platform",
     url: "#",
-    image: "projects/internal-platform.png",
+    image: "images/logo.png",
     projectDetail:
       "Engineered an internal management system for HR and operations including modules for shift scheduling, media editing, playlist handling, and user role management. Built with React, Tailwind CSS, and Node.js, and integrated with REST APIs and MongoDB. Employed Docker Compose for container orchestration and AWS EC2 for deployment.",
     technologiesUsed: [
@@ -176,7 +176,7 @@ const portfolio = [
     id: 11,
     projectName: "Veteran Job Assistance Chatbot",
     url: "#",
-    image: "projects/veteran-chatbot.png",
+    image: "images/logo.png",
     projectDetail:
       "Developed a multilingual chatbot system for American Veterans Resource Group using Django, PyTorch, and OpenAI API. Integrated Google Translate, speech-to-text, and text-to-speech features to ensure accessibility. Implemented vector search and RAG (retrieval-augmented generation) for intelligent response generation.",
     technologiesUsed: [
@@ -194,7 +194,7 @@ const portfolio = [
     id: 12,
     projectName: "Blockchain Wallet & Token Platform",
     url: "#",
-    image: "projects/blockchain-wallet.png",
+    image: "images/logo.png",
     projectDetail:
       "Built a secure blockchain wallet interface and token management system using Web3.js, Solidity, and Ether.js. Implemented wallet integration, smart contract interaction, and transaction history tracking. UI built with React and Wagmi for seamless Web3 onboarding.",
     technologiesUsed: [

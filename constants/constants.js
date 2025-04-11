@@ -3,9 +3,7 @@ export const NAME = "Kevin Schuermann";
 export const DESIGNATION = `Senior Software Engineer | AI/ML Specialist | Effective Communicator`;
 
 export const DETAILS = {
-  Residence: "Germany",
-  City: "Berlin",
-  Age: "23",
+  Location: "Greenville, SC, USA",
 };
 
 export const MAIN_SKILL_LIST = [
@@ -161,7 +159,6 @@ export const TECH_STACK = [
 export const CONTACTS = {
   EMAIL: "kevin.th.dev@gmail.com",
   PHONE: "+1 (707) 652-3657",
-  // PHONE: "+1 (864) 365-5881",
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/kevin",

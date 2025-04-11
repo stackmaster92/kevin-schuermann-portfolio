@@ -41,11 +41,9 @@ const Intro = () => {
 
       {/* middle components */}
       <div className="beech z-20 flex flex-col overflow-y-scroll pt-48 top-20 space-y-6 divide-y divide-white overflow-x-hidden no-scrollbar px-4">
-        {/* <Location /> */}
+        <Location />
         <Contact />
         <Languages />
-        {/* <Skills />
-        <Tools /> */}
         <Download icon={<FaDownload />} />
       </div>
     </div>
