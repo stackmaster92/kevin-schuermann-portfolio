@@ -160,6 +160,7 @@ export const CONTACTS = {
   EMAIL: "kevin.th.dev@gmail.com",
   PHONE: "+1 (707) 652-3657",
 };
+
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/kevin",
   LINKEDIN: "http://www.linkedin.com/in/kevin-schuermann-65211225a",
