@@ -20,11 +20,11 @@ const Contact = () => {
             <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
               <div className="flex justify-between items-center">
                 <span className="md:text-base text-LightGray">Telegram:</span>
-                <span className="text-base">Https://t.me/Schurmie</span>
+                <span className="text-base"></span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="md:text-base text-LightGray">Skype:</span>
-                <span className="text-base">live:.cid.3803fd4e7c071643</span>
+                <span className="text-base"></span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="md:text-base text-LightGray">Whatsapp:</span>
