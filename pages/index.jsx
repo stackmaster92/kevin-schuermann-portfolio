@@ -26,6 +26,8 @@ const Home = () => {
       {/* Banner Section */}
       <Banner />
 
+      <Recommendations limit={2} />
+
       {/* Portfolio Section */}
       <div className="px-4 md:px-8 py-4 mt-6 text-xl font-bold text-Snow">
         My Portfolio
@@ -50,7 +52,7 @@ const Home = () => {
           Show More...
         </Link>
       </div>
-      <Recommendations limit={2} />
+
       <ClientReviews />
 
       {/* Footer */}
